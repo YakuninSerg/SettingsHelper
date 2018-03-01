@@ -24,6 +24,14 @@ Than to add OnLocationSettingsListener via
             }
         });
 ```
+
+Check location settings
+
+```
+locationSettings.checkCurrentLocationSettings();
+
+```
+
 And finaly override the one method in your activity, and add two line in it:
 ```
 @Override
