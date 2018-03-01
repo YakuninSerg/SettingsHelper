@@ -45,7 +45,7 @@ public class LocationSettings {
         return mLocationRequest;
     }
 
-    protected void checkCurrentLocationSettings(){
+    public void checkCurrentLocationSettings(){
         LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder()
                 .addLocationRequest(getLocationRequest());
 
