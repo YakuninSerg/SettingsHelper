@@ -6,6 +6,8 @@ But before doing this, you need to make sure that a device has a correct setting
 And if it is not so, you should to promt user to change his location settings from runtime.
 
 That few files will help you to do it simplify.
+* [OnLocationSettingsListener](https://github.com/YakuninSerg/SettingsHelper/blob/master/app/src/main/java/com/example/siakunin/settingshelper/OnLocationSettingsListener.java)
+* [LocationSettings](https://github.com/YakuninSerg/SettingsHelper/blob/master/app/src/main/java/com/example/siakunin/settingshelper/LocationSettings.java) 
 
 All you need is to create <b>LocationSettings(activity)</b>
 Than to add OnLocationSettingsListener via 
